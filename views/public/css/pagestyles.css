@@ -1,0 +1,62 @@
+ @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+ 
+ @font-face {
+    font-family: "PressStart2P";
+    src: url("https: //fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+}
+
+body {
+    font-family: "PressStart2p", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    background-color: darkgray;
+}
+h1 {
+    font-family: "PressStart2p", sans-serif;
+    font-size: 50px;
+}
+h2,h3{
+    font-family: "PressStart2p", sans-serif;
+    font-size: 30px;
+}
+h4,h5 {
+    font-family: "PressStart2p", sans-serif;
+    font-size: 15px;
+}
+
+div {
+    font-family: "PressStart2p", sans-serif;
+    font-size: 50px;
+} 
+
+* {
+    box-sizing: border-box;
+}
+.gameArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.gameFrame {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.titleContactUs{
+    text-align: center;
+}
+.punchline{
+    color: red;
+    text-align: center;
+    margin-left: 3%;
+}

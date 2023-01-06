@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris & Dr. Mario SNES | Welcome</title>
+    <link rel="stylesheet" href="/views/public/css/pagestyles.css">
+      <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+  />
+  <link rel="stylesheet" href="css/gamepage-style.css" />
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<body>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <h1><a class="navbar-item">
+          GAMEATHON
+        </a></h1>
+      <div class="navbar-item has-dropdown is-hoverable">
+
+        <div class="navbar-dropdown">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+            <a class="button is-secondary" href="games">
+            <strong>Back to main page! </strong>
+          </a>
+          <a class="button is-warning" href="contactUS">
+            <strong>Contact </strong>
+          </a>
+
+          <a class="button is-secondary" href="allComments">
+            <strong>Comments </strong>
+          </a>
+
+          <a class="button is-warning" href="logout">
+            <strong>Log Out! </strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+    <!-- End Top Bar -->
+
+    <div class="callout large primary">
+        <div class="row column text-center">
+            <h1>🧩WHERE GAMERS GO!💊</h1>
+            <h2 class="subheader">Scroll down and click on "start game" to get your game on!</h2>
+        </div>
+    </div>
+
+    <!-- We can now combine rows and columns when there's only one column in that row -->
+    <div class="row medium-8 large-7 columns">
+        <div class="blog-post">
+            <h3>Tetris & Dr. Mario</h3>
+            <img class="thumbnail" src="TetrisandDrMarioboxart.jpg">
+            <p>Tetris & Dr. Mario is a 1994 puzzle video game compilation developed by Intelligent Systems and published by Nintendo
+            for the Super Nintendo Entertainment System. It contains enhanced remakes of Tetris (1989) and Dr. Mario (1990), which
+            were originally released for both the Nintendo Entertainment System and Game Boy in North America. Both games include
+            split-screen multiplayer and a "Mixed Match" mode that transitions between the two games.
+            
+            Development was by Intelligent Systems, and was one of the last SNES games released in North America. The Japanese
+            version of the game excludes Tetris due to Bullet-Proof Software holding the console rights to the series in Japan. The
+            remake of Dr. Mario was also broadcast through the Satellaview, renamed BS Dr. Mario, and was the last game to be
+            broadcast on the system. Tetris & Dr. Mario received generally positive reviews, with critics praising its controls and
+            multiplayer, particularly the Mixed Match mode. It sold 6 million copies.</p>
+
+        </div>
+    </div>
+    <div class="gameArea">
+        <section class="gameFrame">
+            <div>
+    <div id="game"></div>
+    </div>
+    <script type="text/javascript">
+        EJS_player = '#game';
+        EJS_gameUrl = '/handlebargames/TetrisAndDrMario.sfc'; // Url to Game rom
+        EJS_core = 'snes';
+        EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js">
+    </script>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+
+
+</html>
